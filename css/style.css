@@ -2,6 +2,12 @@ body {
 	margin-top: 50px;
 }
 
+.col-sm-8, 
+.col-sm-6, 
+.col-sm-4 {
+	margin-bottom: 30px !important;
+}
+
 .branding-color {
 	color: #008800 !important;
 }
@@ -10,6 +16,7 @@ body {
 	height: 405px;
 	background-image: url("../img/site_showcase_bg.jpg");
 	color: #fff;
+	overflow: hidden;
 }
 
 .vertical-center {
@@ -55,13 +62,15 @@ section#about-title-bar {
 	font-size: 1.3em;
 	line-height: 2.0em;
 }
-brand
+
 .features .list {
 	padding-top: 50px; 
 }
 
 .features img {
-	width: 100%;
+	margin: 50px 70px;
+	width: 60%;
+
 }
 
 #inputName:hover,  
